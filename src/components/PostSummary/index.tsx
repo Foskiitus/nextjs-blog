@@ -9,7 +9,7 @@ type PostSummaryProps = {
   excerpt: string;
 };
 
-export default function PostSummary({
+export function PostSummary({
   postHeading,
   postLink,
   createdAt,
